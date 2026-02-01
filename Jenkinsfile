@@ -4,7 +4,7 @@ pipeline {
     environment {
         MAVEN_TOOL   = 'maven3.9.12'
 
-        DOCKER_IMAGE = 'code9bruno/linkpay'
+        DOCKER_IMAGE = 'lukmanabdallah/linkpay'
         DOCKER_TAG   = "${BUILD_NUMBER}"
 
         TEST_CONTAINER = 'linkpay-test'
