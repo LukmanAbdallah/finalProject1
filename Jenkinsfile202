@@ -33,7 +33,7 @@ node {
 
         deploy adapters: [
             tomcat9(
-                credentialsId: 'tomcat-UAT',
+                credentialsId: 'tomcat',
                 url: 'http://tomcat:8080'
             )
         ],
@@ -43,4 +43,5 @@ node {
 }
 
  
+
 
